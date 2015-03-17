@@ -10,9 +10,8 @@ RUN /usr/local/sbin/builder-enter
 # Install packages
 RUN apt-get -q update         \
  && apt-get -y -qq upgrade    \
- && apt-get purge -y nginx.*  \
  && apt-get -y -qq install    \
-        nginx                 \
+        nginx-full            \
  && apt-get clean
 
 
