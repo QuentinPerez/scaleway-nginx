@@ -1,5 +1,4 @@
-DOCKER_NAMESPACE =	armbuild/
-NAME =			scw-app-nginx
+NAME =			nginx
 VERSION =		latest
 VERSION_ALIASES =
 TITLE =			Nginx
