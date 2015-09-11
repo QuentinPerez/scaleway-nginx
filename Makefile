@@ -1,10 +1,9 @@
-DOCKER_NAMESPACE =	armbuild/
-NAME =			scw-app-nginx
+NAME =			nginx
 VERSION =		latest
 VERSION_ALIASES =
 TITLE =			Nginx
 DESCRIPTION =		Nginx
-SOURCE_URL =		https://github.com/scaleway/image-app-nginx
+SOURCE_URL =		https://github.com/scaleway-community/scaleway-nginx
 VENDOR_URL =		http://nginx.org/
 
 IMAGE_VOLUME_SIZE =	50G
