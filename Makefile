@@ -5,6 +5,8 @@ TITLE =			Nginx
 DESCRIPTION =		Nginx
 SOURCE_URL =		https://github.com/scaleway-community/scaleway-nginx
 VENDOR_URL =		http://nginx.org/
+DEFAULT_IMAGE_ARCH =	x86_64
+
 
 IMAGE_VOLUME_SIZE =	50G
 IMAGE_BOOTSCRIPT =	stable
